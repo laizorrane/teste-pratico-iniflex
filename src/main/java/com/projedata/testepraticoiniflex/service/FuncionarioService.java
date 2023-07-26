@@ -20,6 +20,6 @@ public interface FuncionarioService {
     DetalheIdade funcionarioMaiorIdade();
     List<Funcionario> listaPorOrdemAlfabetica();
     String somaSalarioTodosFuncionarios();
-    List<DetalheSalarioMinimo> litaFuncionarioSalarioMinimo();
+    List<DetalheSalarioMinimo> listaFuncionarioSalarioMinimo();
 
 }

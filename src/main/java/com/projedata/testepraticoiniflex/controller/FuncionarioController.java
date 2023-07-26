@@ -118,7 +118,7 @@ public class FuncionarioController {
     @GetMapping("/listaFuncionarioSalarioMinimo")
     public ResponseEntity<List<DetalheSalarioMinimo>> litaFuncionarioSalarioMinimo() {
         try {
-            return ResponseEntity.ok(funcionarioService.litaFuncionarioSalarioMinimo());
+            return ResponseEntity.ok(funcionarioService.listaFuncionarioSalarioMinimo());
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
